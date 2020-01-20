@@ -393,6 +393,7 @@ div.pnlm-tooltip:hover span:after {
     right: 4px;
     bottom: 4px;
     border-radius: 25px;
+    /* background-image: url('./img/background.svg'); */
     background-image: url('https://walkthru-data.s3.us-east-2.amazonaws.com/compass.svg');
     cursor: default;
     display: none;
