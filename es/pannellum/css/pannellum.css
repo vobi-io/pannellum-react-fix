@@ -7,7 +7,8 @@
     width: 100%;
     height: 100%;
     font-family: Helvetica, "Nimbus Sans L", "Liberation Sans", Arial, sans-serif;
-    background: #f4f4f4 url('img/background.svg') repeat;
+    /* background: #f4f4f4 url('img/background.svg') repeat; */
+    background: #f4f4f4 url('https://walkthru-data.s3.us-east-2.amazonaws.com/background.svg') repeat;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -33,16 +34,19 @@
 
 .pnlm-grab {
     cursor: grab;
-    cursor: url('img/grab.svg') 12 8, default;
+    cursor: url('https://walkthru-data.s3.us-east-2.amazonaws.com/grab.svg') 12 8, default;
+    /* cursor: url('img/grab.svg') 12 8, default; */
 }
 
 .pnlm-grabbing {
     cursor: grabbing;
-    cursor: url('img/grabbing.svg') 12 8, default;
+    cursor: url('https://walkthru-data.s3.us-east-2.amazonaws.com/grabbing.svg') 12 8, default;
+    /* cursor: url('img/grabbing.svg') 12 8, default; */
 }
 
 .pnlm-sprite {
-    background-image: url('img/sprites.svg');
+    background-image: url('https://walkthru-data.s3.us-east-2.amazonaws.com/sprites.svg');
+    /* background-image: url('img/sprites.svg'); */
 }
 
 .pnlm-container:-moz-full-screen {
@@ -389,7 +393,7 @@ div.pnlm-tooltip:hover span:after {
     right: 4px;
     bottom: 4px;
     border-radius: 25px;
-    background-image: url('img/compass.svg');
+    background-image: url('https://walkthru-data.s3.us-east-2.amazonaws.com/compass.svg');
     cursor: default;
     display: none;
 }
